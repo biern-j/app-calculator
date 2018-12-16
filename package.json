@@ -1,0 +1,36 @@
+{
+  "name": "app-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolawro/app-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jolawro/app-calculator/issues"
+  },
+  "homepage": "https://github.com/jolawro/app-calculator#readme",
+  "devDependencies": {
+    "@types/react": "^16.7.17",
+    "@types/react-dom": "^16.0.11",
+    "parcel-bundler": "^1.10.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/styled-components": "^4.1.4",
+    "dotenv": "^6.2.0",
+    "googleapis": "^36.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.2"
+  }
+}
