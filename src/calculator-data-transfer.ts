@@ -50,7 +50,6 @@ async function run() {
                 backend: curr[8],
                 devops: curr[9] }
         };
-        console.log("curr", curr, "answer", answer );
 
         const questions = [...acc, {
                 id: curr[0],
