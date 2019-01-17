@@ -50,7 +50,6 @@ async function run() {
                 backend: curr[8],
                 devops: curr[9] }
         };
-
         const questions = [...acc, {
                 id: curr[0],
                 selectionType: curr[1],
@@ -58,7 +57,6 @@ async function run() {
                 question: curr[3],
                 answers: [answer],
             }];
-        console.log(questions);
 
         return questions;
     };
