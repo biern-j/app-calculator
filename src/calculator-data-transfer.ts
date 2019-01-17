@@ -60,7 +60,6 @@ async function run() {
                 answers: [answer],
             }];
 
-        //console.log("question", question);
         return questions;
     };
     const testResult = data.reduce(reducer, {});
