@@ -57,6 +57,7 @@ async function run() {
                 question: curr[3],
                 answers: [answer],
             }];
+        console.log(questions);
 
         return questions;
     };
